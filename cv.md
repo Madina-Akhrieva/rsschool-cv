@@ -40,3 +40,11 @@ void Room_inf::sortirovka(Room_inf& room, ifstream& file_name)
   cout << table.to_string() << endl;
 }
 ~~~
+## Working experience
+- Course in Software testing in IQ LAB  
+- Second course in Belarussian State University of Informatics and Radio electronics
+- IT Academy "Front-end developer"
+## Education
+University: Belarasian State University of Information and Radioelectronics  
+Speciality: Information Systems and Technologies (in economics)  
+Graduation year: 2023
