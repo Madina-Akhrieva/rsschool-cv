@@ -1,0 +1,68 @@
+h1 {
+  text-align: center;
+  font-family: "Dosis", sans-serif;
+}
+h2 {
+  font-size: 30px;
+  font-family: "Dosis", sans-serif;
+}
+body {
+  background-color: "#ebd3f5";
+  font-family: "Dosis", sans-serif;
+}
+
+div {
+  margin-left: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+caption {
+  text-align: center;
+}
+.center {
+  margin: 0 auto;
+  position: relative;
+  width: 800px;
+  height: auto;
+  background: black;
+  padding: 10px;
+  color: white;
+}
+.th2_1 {
+  margin-top: 10px;
+  margin-right: 25px;
+  width: 300px;
+  background-color: "#ebd3f5";
+}
+
+img {
+  width: 150px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  height: auto;
+  float: left;
+  padding: 10px;
+}
+
+.decor {
+  padding: 20px;
+  margin-right: 100px;
+  width: 400px;
+  size: 20px;
+}
+
+#div2 {
+  color: white;
+  width: 50px;
+}
+#code_deco {
+  background-color: #c7c6c5;
+  margin-left: 100px;
+  color: black;
+  width: 620px;
+}
