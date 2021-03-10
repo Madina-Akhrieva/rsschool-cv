@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en"> 
 <head>
-    <title> CV </title>
-    <link rel="stylesheet" href="./CV.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -13,31 +11,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="photo_2021-03-08_12-04-53.jpg">
+    <title>CV</title>
+    <link rel="stylesheet" href="css/CV.css">
+    <link rel="stylesheet" href="img/photo_2021-03-08_12-04-53.jpg">
     <script src="https://kit.fontawesome.com/9448dfb23b.js" crossorigin="anonymous"></script>
 </head>
-<body bgcolor="#b8bab9">
+<body >
     <header>
         <h1>FEDeveloper</h1>
-        <h2>Akhrieva Madina</h2>
+        <h2>Madina Akhrieva</h2>
     </header>
     <main >
         <div class="center">
+            
+            
             <table>
                 <tr>
-                    <td> <img src="photo_2021-03-08_12-04-53.jpg", alt=""> </td>
+                    <td> <img src="img/photo_2021-03-08_12-04-53.jpg" alt=""> </td>
                     <td>
                        <div class="decor_pr_inf">
-                        Contact me:
-                        <li>Telegram:<a href="https://t.me/MadinaAR1">Madina Akhrieva</a></li>
-                        <li>GitHub:<a href="https://github.com/Madina-Akhrieva">Madina Akhrieva</a></li>
-                        <li>E-mail:<a href="akhrieva03@gmail.com">akhrieva03@gmail.com</a></li>
-                        <li>Telephone number: +375336970506</li>
+                          Contact me:
+                           <ul>
+                            <li>Telegram:<a href="https://t.me/MadinaAR1">Madina Akhrieva</a></li>
+                            <li>GitHub:<a href="https://github.com/Madina-Akhrieva">Madina Akhrieva</a></li>
+                            <li>E-mail:<a href="akhrieva03@gmail.com">akhrieva03@gmail.com</a></li>
+                            <li>Telephone number: +375336970506</li>
+                           </ul>
+                        
                        </div>
+                      
                     </td>
                 </tr>
             </table>
             <table>
+                
                 <tr>
                     <td>Summary</td>
                     <td>Skills</td>
@@ -48,6 +55,7 @@
                             Now I am determined to learn hard and become a front-end developer.
                         </div>
                     </td>
+
                     <td> 
                         <div class="th2_1">
                             <ul>
@@ -63,52 +71,61 @@
                 </tr>
             </table>
            
-           <div id="div2">Code example:</div>
+            <div id="div2">Code example:</div>
                <div id="code_deco">
-                   <pre>
-    void Room_inf::sortirovka(Room_inf& room, ifstream& file_name)
+                   <p>
+                    <code>
+                        void Room_inf::sortirovka(Room_inf& room, ifstream& file_name)<br>
     {
-        vector<Room_inf>room_inf;
-        room.fill_vector<Room_inf>("room_information.txt", room_inf, file_name,room);
-        cout << "\tВывод номеров по порядку" << endl;
+        vector room_inf;<br>
+        room.fill_vector ("room_information.txt", room_inf, file_name,room);<br>
+        cout « "\tВывод номеров по порядку" « endl;<br>
                     
-        for (auto& left : room_inf)
+        for (auto& left : room_inf) <br>
                       
-        for (auto& right : room_inf)
+        for (auto& right : room_inf) <br>
                         
-            if (left.number_of_places < right.number_of_places)
-            swap(left, right);
+            if (left.number_of_places « right.number_of_places) <br>
+            swap(left, right); <br>
                         
                       
-        fort::char_table table;
-        table << fort::header << "№" << "Кол-во мест" << "Тип" << "Цена";
-        for (const auto& inf_room : room_inf)
-        {
+        fort::char_table table; <br>
+        table « fort::header « "№" « "Кол-во мест" « "Тип" « "Цена"; <br>
+        for (const auto& inf_room : room_inf) <br>
+        { <br>
                     
-         table << fort::endr << inf_room.room_number << inf_room.number_of_places <<
-         inf_room.type << inf_room.price << fort::endr;
+         table « fort::endr « inf_room.room_number « inf_room.number_of_places « <br>
+         inf_room.type « inf_room.price « fort::endr; <br>
                     
-        }
-        cout << table.to_string() << endl;
-    }
-                   </pre>
-               </div>
+        } <br>
+        cout « table.to_string() « endl; <br>
+    } <br>
+                   
+                    </code>
+                   </p>
+                   
+    
+               </div> 
+           
                <table>
+                
                 <tr>
                     <td>Education</td>
                     <td>Working xperience</td>
+
+                    
                 </tr>
                 <tr>
                     <td>
                         <div class="th2_1">
                             <ul>
                                 <li>University: Belarasian State University of Information and Radioelectronics   </li>
-                        
                                 <li>Speciality: Information Systems and Technologies(in economics) </li>
                                 <li>Graduation year: 2023</li>
                             </ul>
                         </div>
                     </td>
+
                     <td> 
                         <div class="th2_1">
                             <ul>
@@ -119,13 +136,16 @@
                         </div>
                     </td>
                 </tr>
+                
+                
+                
             </table>
+
             <table>
                 <tr>
                     <td>Hobbies</td>
-                    <td></td>
-                </tr>
-                <tr>
+                    
+              
                     <td>
                         <div>
                             <i class="fas fa-laptop">  coding</i>
@@ -152,11 +172,10 @@
 
                     <td>
                         <div>
-                    
                             <i class="far fa-laugh-beam"> walking</i>
                         </div>
                     </td>
-                </tr>
+             </tr>
             </table>
         </div>
 
