@@ -72,7 +72,9 @@ img {
   color: black;
   width: 620px;
 }
-
+.li_none {
+    list-style-type: none; /* Убираем маркеры */
+   }
 footer{
   text-align: center;
 }
