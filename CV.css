@@ -21,6 +21,9 @@ div {
   
 }
 
+.li_none {
+    list-style-type: none; /* Убираем маркеры */
+   }
 a {
   text-decoration: none;
   color:white ;
