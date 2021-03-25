@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Dancing+Script&family=Dosis:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Dancing+Script&family=Dosis:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="CV.css">
+    <link rel="stylesheet" href="photo_2021-03-08_12-04-53.jpg">
+    <script src="https://kit.fontawesome.com/9448dfb23b.js" crossorigin="anonymous"></script>
+</head>
+<body >
+    <header>
+        <h1>FEDeveloper</h1>
+        <h2>Madina Akhrieva</h2>
+    </header>
+    <main >
+        <div class="center">
+            
+        
+                <table>
+                    <tr>
+                                <td> <img src="photo_2021-03-08_12-04-53.jpg" alt="Нет фоточки"> </td>
+                                <td>
+                                <div class="decor_pr_inf">
+                                    Contact me:
+                                    <ul>
+                                        <li>Telegram:<a href="https://t.me/MadinaAR1">Madina Akhrieva</a></li>
+                                        <li>GitHub:<a href="https://github.com/Madina-Akhrieva">Madina Akhrieva</a></li>
+                                        <li>E-mail:<a href="akhrieva03@gmail.com">akhrieva03@gmail.com</a></li>
+                                        <li>Telephone number: +375336970506</li>
+                                    </ul>
+                                    
+                                </div>
+                                
+                                </td>
+                        
+                       
+                    </tr>
+                </table>
+            
+            
+            <table>
+                
+                <tr>
+                    <td>Summary</td>
+                    <td>Skills</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="th2_1"> In order to achieve goals,  do everything in my power. I am very focused. If there is some unsolved task, I can't stop until succeed in it. 
+                            Now I am determined to learn hard and become a front-end developer.
+                        </div>
+                    </td>
+
+                    <td> 
+                        <div class="th2_1">
+                            <ul>
+                                <li>C/C++</li>
+                                <li>HTML/CSS</li>
+                                <li>JavaScript</li>
+                                <li>Manual testing</li>
+                                <li>English(B2)</li>
+            
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+           
+            <div id="div2">Code example:</div>
+               <div id="code_deco">
+                   <p>
+                    <code>
+                        void Room_inf::sortirovka(Room_inf& room, ifstream& file_name)<br>
+    {
+        vector room_inf;<br>
+        room.fill_vector ("room_information.txt", room_inf, file_name,room);<br>
+        cout « "\tВывод номеров по порядку" « endl;<br>
+                    
+        for (auto& left : room_inf) <br>
+                      
+        for (auto& right : room_inf) <br>
+                        
+            if (left.number_of_places « right.number_of_places) <br>
+            swap(left, right); <br>
+                        
+                      
+        fort::char_table table; <br>
+        table « fort::header « "№" « "Кол-во мест" « "Тип" « "Цена"; <br>
+        for (const auto& inf_room : room_inf) <br>
+        { <br>
+                    
+         table « fort::endr « inf_room.room_number « inf_room.number_of_places « <br>
+         inf_room.type « inf_room.price « fort::endr; <br>
+                    
+        } <br>
+        cout « table.to_string() « endl; <br>
+    } <br>
+                   
+                    </code>
+                   </p>
+                   
+    
+               </div> 
+           
+               <table>
+                
+                <tr>
+                    <td>Education</td>
+                    <td>Working xperience</td>
+
+                    
+                </tr>
+            
+                    <tr>
+                        <td>
+                            <div class="th2_1">
+                                <ul>
+                                    <li>University: Belarasian State University of Information and Radioelectronics   </li>
+                                    <li>Speciality: Information Systems and Technologies(in economics) </li>
+                                    <li>Graduation year: 2023</li>
+                                </ul>
+                            </div>
+                        </td>
+    
+                        <td> 
+                            <div class="th2_1">
+                                <ul>
+                                    <li>Course in Software testing in IQ LAB</li>
+                                    <li>Second course in Belarussian State University of Informatics and Radio electronics</li>
+                                    <li>IT Academy "Front-end developer"</li>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                
+               
+                
+                
+                
+            </table>
+            <footer>
+                <table>
+                    <tr>
+                        <td>Hobbies</td>
+                        
+                
+                        <td>
+                            <div>
+                                <i class="fas fa-laptop">  coding</i>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <i class="fas fa-book">  reading</i>
+                            </div>
+                        </td>
+
+                        <td>
+                            <div>
+                                <i class="fab fa-itunes-note"> playing the piano</i>
+                            </div>
+                        </td>
+
+                        <td>
+                            <div>
+                        
+                                <i class="fas fa-heartbeat"> doing sport</i>
+                            </div>
+                        </td>
+
+                        <td>
+                            <div>
+                                <i class="far fa-laugh-beam"> walking</i>
+                            </div>
+                        </td>
+                </tr>
+                </table>
+            </footer>
+            
+        </div>
+
+        
+    </main>
+<footer>
+    
+    <ul class="li_none">
+        <li>Country: Minsk</li>
+        <li>Address: Gikalo 9/4</li>
+        <li>Age: 17 years</li>
+        
+    </ul>
+</footer>
+</body>
+</html>
