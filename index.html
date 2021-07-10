@@ -75,42 +75,7 @@
                 </tr>
             </table>
            
-            <div id="div2">Code example:</div>
-               <div id="code_deco">
-                   <p>
-                    <code>
-                        void Room_inf::sortirovka(Room_inf& room, ifstream& file_name)<br>
-    {
-        vector room_inf;<br>
-        room.fill_vector ("room_information.txt", room_inf, file_name,room);<br>
-        cout « "\tВывод номеров по порядку" « endl;<br>
-                    
-        for (auto& left : room_inf) <br>
-                      
-        for (auto& right : room_inf) <br>
-                        
-            if (left.number_of_places « right.number_of_places) <br>
-            swap(left, right); <br>
-                        
-                      
-        fort::char_table table; <br>
-        table « fort::header « "№" « "Кол-во мест" « "Тип" « "Цена"; <br>
-        for (const auto& inf_room : room_inf) <br>
-        { <br>
-                    
-         table « fort::endr « inf_room.room_number « inf_room.number_of_places « <br>
-         inf_room.type « inf_room.price « fort::endr; <br>
-                    
-        } <br>
-        cout « table.to_string() « endl; <br>
-    } <br>
-                   
-                    </code>
-                   </p>
-                   
-    
-               </div> 
-           
+            
                <table>
                 
                 <tr>
